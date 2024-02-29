@@ -6,3 +6,6 @@ body{
     font-family: 'Poppins';font-size: 22px;
     margin: 0;
 }
+.w-100{
+    width: 100%;
+}
