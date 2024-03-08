@@ -40,7 +40,7 @@
 }
 @media (max-width: 1024px) {
   .popular {
-    height: 60vh;
+    height: 50vh;
   }
   .popular h1 {
     font-size: 30px;
@@ -56,13 +56,13 @@
 }
 @media (max-width: 800px) {
   .popular {
-    height: 50vh;
+    height: 40vh;
     gap: 6px;
   }
   .popular h1 {
     font-size: 20px;
   }
-  .popular hr {
+  .popular hr{
     width: 100px;
   }
   .popular-item {
@@ -71,7 +71,7 @@
 }
 @media(max-width:500px){
     .popular{
-        height: 90vh;
+        height: 100vh;
     }
     .popular-item{
         display: grid;

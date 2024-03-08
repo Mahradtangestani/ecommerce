@@ -78,7 +78,7 @@
 }
 @media (max-width: 1280px){
     .navbar{
-        padding: 12px 50px;
+        padding: 12px 0px;
     }
     .nav-logo img{
         width: 40px;
@@ -106,7 +106,7 @@
 
 @media (max-width:1024px){
     .navbar{
-        padding: 12px 30px;
+        padding: 12px 0px;
     }
     .nav-menu{
         gap: 25px;
