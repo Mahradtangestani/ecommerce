@@ -18,7 +18,8 @@
     font-weight: 600;
 }
 .shopcategory-products{
-    margin: 20px 40px;
+    width: 82%;
+    margin: 20px auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
@@ -74,7 +75,8 @@
         width: 95%;
     }
     .shopcategory-products{
-        width: 95%;
+        width: 97%;
+        grid-template-columns: 2fr 2fr;
     }
     .shopcategory-loadmore{
         margin: 60px auto;
@@ -85,6 +87,9 @@
 }
 @media(max-width:580px){
     .shopcategory-products{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 2fr;
+        width: 99%;
+        margin: 20px auto;
+        
     }
 }

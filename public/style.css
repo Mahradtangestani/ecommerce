@@ -9,3 +9,15 @@ body{
 .w-100{
     width: 100%;
 }
+*::-webkit-scrollbar{
+    height: .3rem;
+    width: .7rem;
+ }
+ 
+ *::-webkit-scrollbar-track{
+    background-color: transparent;
+ }
+*::-webkit-scrollbar-thumb{
+    background-color: darkkhaki;
+    border-radius: 2rem;
+ }
